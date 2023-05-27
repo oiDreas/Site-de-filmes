@@ -1,0 +1,272 @@
+/* CSS do Anthony */
+
+
+/* Zerando CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Configs gerais */
+body {
+    font-family: 'Noto Sans', sans-serif;
+    width: 1920px;
+    height: 1080px;
+    z-index: 0;
+}
+
+/* Cabecalho */
+
+header {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background: #000;
+    float: '';
+    position: fixed;
+
+    z-index: 4;
+
+    animation-name: menu-desce;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+.navigation {
+    display: flex;
+    float: '';
+    height: 50px;
+}
+
+
+/* Titulo */
+.logo {
+   float: center;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   left: 300px;
+   color: white;
+}
+
+
+/* Menu esquerdo */
+.list-itens {
+    display: flex;
+    list-style: none;
+    margin: 6px 30px;
+    width: 25%;
+    float: left;
+}
+
+.list-itens  a {
+    display: flex;
+    justify-content: center;
+    margin: 10px 30px;
+    
+    
+    align-items: center;
+    text-align: center;
+
+    color: white;
+    text-decoration: none;
+}
+
+/* Menu direito */
+.list-itens-2 {
+    display: flex;
+    list-style: none;
+    margin: 6px 30px;
+    width: 25%;
+}
+.list-itens-2 a {
+    display: flex;
+    justify-content: center;
+    margin: 10px 30px;
+    
+    
+    align-items: center;
+    text-align: center;
+
+    color: white;
+
+    
+    position: relative;
+    left: 700px;
+    text-decoration: none;
+}
+
+
+
+/* Corpo do site */
+main {
+    background: #1A1A1A;
+    display: flex;
+    width: 100%;
+    height: 1060px;
+    padding-top: 100px;
+
+}
+
+#full-cards {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    gap: 100px;
+    margin-left: 100px;
+}
+
+#card1 {
+    width: 300px;
+    height: 600px;
+    background: #1A1A1A;
+
+    position: relative;
+    z-index: 1;
+
+    opacity: 0.6;
+
+}
+/* .tudao {
+    width: 1920px;
+    height: 1080px;
+    background: black;
+    float: '';
+    z-index: 4;
+}
+.tudao::before {
+    content: '';
+    width: 1920px;
+    height: 1080px;
+    background: #1A1A1A;
+}
+.tudao::after {
+    content: '';
+    width: hidden;
+    height: hidden;
+    background: transparent;
+} */
+
+#card1:hover {
+    transform: scale(1.1);
+    opacity: 1.1;
+    
+}
+#card1, h2 {
+    text-align: center;
+    position: relative;
+    bottom: -20px;
+    color: white;
+}
+
+
+
+
+#card2 {
+    width: 300px;
+    height: 600px;
+    background: #1A1A1A;
+
+    position: inherit;
+    z-index: 2;
+
+    opacity: 0.6;
+}
+#card2:hover {
+    transform: scale(1.1);
+    opacity: 1.1;
+}
+#card2, h2 {
+    text-align: center;
+    position: relative;
+    bottom: -20px;
+    color: white;
+}
+
+
+
+
+#card3 {
+    width: 300px;
+    height: 600px;
+    background: #1A1A1A;
+
+    position: inherit;
+    z-index: 3;
+
+    opacity: 0.6;
+}
+#card3:hover {
+    transform: scale(1.1);
+    opacity: 1.1;
+}
+#card3, h2 {
+    text-align: center;
+    position: relative;
+    bottom: -20px;
+    color: white;
+}
+
+
+
+footer {
+    background: #1A1A1A;
+    color: white;
+    display: flex;
+    position: relative;
+    left: 600px;
+    bottom: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ANIMACOES */
+
+@keyframes menu-desce {
+    from {
+        top: -50px;
+    }
+    to {
+        top: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
